@@ -22,9 +22,6 @@ void merge(int arr[], int l,
 	for (j = 0; j < n2; j++)
 		R[j] = arr[m + 1 + j];
 
-	// Merge the temp arrays back
-	// into arr[l..r]
-	// Initial index of first subarray
 	i = 0;
 
 	// Initial index of second subarray
@@ -65,9 +62,6 @@ void merge(int arr[], int l,
 	}
 }
 
-// l is for left index and r is
-// right index of the sub-array
-// of arr to be sorted
 void mergeSort(int arr[],
 			int l, int r)
 {
